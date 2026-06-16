@@ -7,9 +7,11 @@ class FetchError(Exception):
     pass
 
 
-def fetch_bars(pair: str, timeframe: str, limit: int = config.BARS_LIMIT):
+def fetch_bars(pair: str, timeframe: str, limit: int = config.BARS_LIMIT, start: str = None):
     """Fetch OHLCV bars for one symbol/timeframe. Returns list (possibly empty)."""
     params = {"symbols": pair, "timeframe": timeframe, "limit": limit}
+    if start:
+        params["start"] = start
     headers = {}
     if config.ALPACA_KEY and config.ALPACA_SECRET:
         headers = {

@@ -27,6 +27,30 @@ def test_fetch_bars_missing_symbol_returns_empty(monkeypatch):
     assert data.fetch_bars("UNI/USD", "1Hour") == []
 
 
+def test_fetch_bars_forwards_start_param(monkeypatch):
+    captured = {}
+
+    def fake_get(url, params=None, headers=None, timeout=None):
+        captured["params"] = params
+        return _FakeResp({"bars": {"BTC/USD": []}})
+
+    monkeypatch.setattr(data.requests, "get", fake_get)
+    data.fetch_bars("BTC/USD", "1Hour", start="2026-06-01T00:00:00Z")
+    assert captured["params"]["start"] == "2026-06-01T00:00:00Z"
+
+
+def test_fetch_bars_omits_start_when_none(monkeypatch):
+    captured = {}
+
+    def fake_get(url, params=None, headers=None, timeout=None):
+        captured["params"] = params
+        return _FakeResp({"bars": {"BTC/USD": []}})
+
+    monkeypatch.setattr(data.requests, "get", fake_get)
+    data.fetch_bars("BTC/USD", "1Hour")
+    assert "start" not in captured["params"]
+
+
 def test_fetch_bars_http_error_raises_fetcherror(monkeypatch):
     def boom(*a, **k):
         raise ConnectionError("dns fail")

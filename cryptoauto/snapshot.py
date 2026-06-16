@@ -1,7 +1,12 @@
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from . import config, data, indicators
+
+
+def _start_for(tf_key):
+    days = config.LOOKBACK_DAYS.get(tf_key, 30)
+    return (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def compute_for_bars(bars):
@@ -31,7 +36,7 @@ def snapshot_symbol(sym):
     out = {"symbol": sym, "pair": pair, "status": "ok", "timeframes": {}}
     for tf_key, tf_api in config.TIMEFRAMES.items():
         try:
-            bars = data.fetch_bars(pair, tf_api)
+            bars = data.fetch_bars(pair, tf_api, start=_start_for(tf_key))
             ind = compute_for_bars(bars)
             if ind is None:
                 out["timeframes"][tf_key] = {"status": "no_data"}
