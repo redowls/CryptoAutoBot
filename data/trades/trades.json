@@ -1,19 +1,17 @@
 {
-  "open": [
+  "open": [],
+  "closed": [
     {
       "symbol": "BTC",
-      "qty": 0.05199304,
+      "qty": 0.051863057,
       "entry_price": 62731.4,
+      "exit_price": 64808.12,
       "entry_time": "2026-07-14T08:41:57.953633+00:00",
-      "initial_stop": 61948.78797774768,
-      "stop": 61948.78797774768,
-      "high_water": 62731.4,
-      "atr_at_entry": 260.8706740841081,
-      "order_id": "c95ef2f2-e78c-40aa-90aa-096c6c7e6734",
-      "half_size": false
+      "exit_time": "2026-07-14T16:12:03.426334+00:00",
+      "pnl": 107.71,
+      "reason": "tp"
     }
   ],
-  "closed": [],
   "last_entry_attempt": {
     "BTC": "2026-07-14T08:41:57.282086+00:00"
   }
