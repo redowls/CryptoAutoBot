@@ -1,1 +1,1 @@
-{"date": "2026-07-14", "regime_hint": "neutral", "blocked_symbols": ["XRP", "DOT"], "max_positions": 2, "notes": "5/10 coins RSI>70 synchronized overbought; XRP has contradictory MIXED+overbought signals, DOT ADX 14.4 trendless — only AVAX/LTC meet ADX>25 threshold with non-extended RSI"}
+{"date": "2026-07-15", "regime_hint": "auto", "blocked_symbols": ["ETH", "XRP"], "max_positions": 3, "notes": "10/10 EMA-up mid-rally; block ETH (RSI 72.2) and XRP (RSI 70.6) — synchronized overbought overshoot risk; LINK/SOL/LTC are clean entries"}
