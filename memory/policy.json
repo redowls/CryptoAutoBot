@@ -1,1 +1,1 @@
-{"date": "2026-07-15", "regime_hint": "auto", "blocked_symbols": ["ETH", "XRP"], "max_positions": 3, "notes": "10/10 EMA-up mid-rally; block ETH (RSI 72.2) and XRP (RSI 70.6) — synchronized overbought overshoot risk; LINK/SOL/LTC are clean entries"}
+{"date": "2026-07-16", "regime_hint": "neutral", "blocked_symbols": ["UNI"], "max_positions": 2, "notes": "post-peak correction (10/10→7/10 mixed); 8/10 ADX<25; AVAX open; UNI blocked (ATR 1.39%/ADX 11.7)"}

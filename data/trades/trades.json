@@ -11,18 +11,6 @@
       "atr_at_entry": 0.05995555671839671,
       "order_id": "31102006-468a-41a7-af88-1ccc16304028",
       "half_size": false
-    },
-    {
-      "symbol": "DOGE",
-      "qty": 45062.664104958,
-      "entry_price": 0.0745431,
-      "entry_time": "2026-07-14T23:12:09.767913+00:00",
-      "initial_stop": 0.07300962262281066,
-      "stop": 0.07300962262281066,
-      "high_water": 0.07494,
-      "atr_at_entry": 0.0005111591257297789,
-      "order_id": "8cb7a388-9d45-4ea7-9e08-fc6a376e57a4",
-      "half_size": false
     }
   ],
   "closed": [
@@ -35,6 +23,16 @@
       "exit_time": "2026-07-14T16:12:03.426334+00:00",
       "pnl": 107.71,
       "reason": "tp"
+    },
+    {
+      "symbol": "DOGE",
+      "qty": 45062.664104958,
+      "entry_price": 0.0745431,
+      "exit_price": 0.0728113,
+      "entry_time": "2026-07-14T23:12:09.767913+00:00",
+      "exit_time": "2026-07-16T13:12:03.281573+00:00",
+      "pnl": -78.04,
+      "reason": "stop"
     }
   ],
   "last_entry_attempt": {
