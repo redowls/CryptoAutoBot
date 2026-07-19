@@ -1,1 +1,1 @@
-{"date": "2026-07-18", "regime_hint": "neutral", "blocked_symbols": ["UNI"], "max_positions": 2, "notes": "8/10 alts in downtrend, broad ADX <22 = choppy market; LTC overbought (RSI 71.4) not chaseable; UNI blocked (-3.26%, ATR 0.82%, no trend structure)"}
+{"date": "2026-07-19", "regime_hint": "auto", "blocked_symbols": ["AVAX", "DOT"], "max_positions": 3, "notes": "ETH+LTC both ADX>40 open longs performing; SOL is valid 3rd slot (ADX 34.6, +0.92%); AVAX/DOT blocked — continued decline post-stop and oversold-in-downtrend respectively"}
