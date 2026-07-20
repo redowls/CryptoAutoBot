@@ -1,1 +1,1 @@
-{"date": "2026-07-19", "regime_hint": "auto", "blocked_symbols": ["AVAX", "DOT"], "max_positions": 3, "notes": "ETH+LTC both ADX>40 open longs performing; SOL is valid 3rd slot (ADX 34.6, +0.92%); AVAX/DOT blocked — continued decline post-stop and oversold-in-downtrend respectively"}
+{"date": "2026-07-20", "regime_hint": "auto", "blocked_symbols": [], "max_positions": 3, "notes": "Broad green day but all ADX sub-25 — engine gates apply normally; LINK and AVAX are best new-entry candidates if ADX confirms above 25"}
