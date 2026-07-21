@@ -13,16 +13,17 @@
       "half_size": false
     },
     {
-      "symbol": "ETH",
-      "qty": 1.749994189,
-      "entry_price": 1868.65,
-      "entry_time": "2026-07-19T05:12:09.421396+00:00",
-      "initial_stop": 1847.9888741741731,
-      "stop": 1847.9888741741731,
-      "high_water": 1896.71,
-      "atr_at_entry": 6.887041941942286,
-      "order_id": "214345df-4cea-404d-b396-a77531e09f4e",
-      "half_size": false
+      "symbol": "SOL",
+      "qty": 42.496299753,
+      "entry_price": 78.249228312,
+      "entry_time": "2026-07-21T04:12:04.631745+00:00",
+      "initial_stop": 75.73953999999999,
+      "stop": 75.73953999999999,
+      "high_water": 78.52445,
+      "atr_at_entry": null,
+      "order_id": null,
+      "half_size": false,
+      "adopted": true
     }
   ],
   "closed": [
