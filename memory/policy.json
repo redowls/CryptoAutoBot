@@ -1,1 +1,1 @@
-{"date": "2026-07-22", "regime_hint": "auto", "blocked_symbols": [], "max_positions": 3, "notes": "ETH (ADX 33) and XRP (ADX 25.5) are valid longs; market broadly ranging (7/10 ADX <25), engine default thresholds are sufficient"}
+{"date": "2026-07-23", "regime_hint": "neutral", "blocked_symbols": ["AVAX"], "max_positions": 2, "notes": "10/10 EMA-down selloff; 2 open longs already below entry (SOL near stop 75.74, LTC underwater); no new entries until existing positions resolve"}
