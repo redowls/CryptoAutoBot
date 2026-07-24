@@ -1,31 +1,5 @@
 {
-  "open": [
-    {
-      "symbol": "LTC",
-      "qty": 70.070104662,
-      "entry_price": 46.9738,
-      "entry_time": "2026-07-18T20:12:10.512132+00:00",
-      "initial_stop": 45.79259992264092,
-      "stop": 45.79259992264092,
-      "high_water": 47.662,
-      "atr_at_entry": 0.39373335911969287,
-      "order_id": "def10097-21b1-4ff2-bae3-7ca2d6983eaa",
-      "half_size": false
-    },
-    {
-      "symbol": "SOL",
-      "qty": 42.496299753,
-      "entry_price": 78.249228312,
-      "entry_time": "2026-07-21T04:12:04.631745+00:00",
-      "initial_stop": 75.73953999999999,
-      "stop": 75.73953999999999,
-      "high_water": 78.52445,
-      "atr_at_entry": null,
-      "order_id": null,
-      "half_size": false,
-      "adopted": true
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "symbol": "BTC",
@@ -56,6 +30,26 @@
       "exit_time": "2026-07-17T02:12:03.686371+00:00",
       "pnl": -114.21,
       "reason": "stop"
+    },
+    {
+      "symbol": "SOL",
+      "qty": 42.496299753,
+      "entry_price": 78.249228312,
+      "exit_price": 75.579872874,
+      "entry_time": "2026-07-21T04:12:04.631745+00:00",
+      "exit_time": "2026-07-23T18:12:06.033427+00:00",
+      "pnl": -113.44,
+      "reason": "stop"
+    },
+    {
+      "symbol": "LTC",
+      "qty": 70.070104662,
+      "entry_price": 46.9738,
+      "exit_price": 47.382238359,
+      "entry_time": "2026-07-18T20:12:10.512132+00:00",
+      "exit_time": "2026-07-23T21:12:06.836891+00:00",
+      "pnl": 28.62,
+      "reason": "time"
     }
   ],
   "last_entry_attempt": {
