@@ -1,1 +1,1 @@
-{"date": "2026-07-24", "regime_hint": "neutral", "blocked_symbols": [], "max_positions": 2, "notes": "9/10 EMA-down; 4 coins oversold (BTC/SOL/XRP/AVAX RSI <31); lone UNI outlier unconfirmed (ADX 16.6); staying cautious until 2+ coins recover confirmed EMA-up stacks"}
+{"date": "2026-07-25", "regime_hint": "neutral", "blocked_symbols": ["AVAX", "DOGE"], "max_positions": 2, "notes": "BTC downtrend ADX 30 as market anchor; AVAX RSI 85 + DOGE RSI 77 overbought with prior stop-outs on both — block entries, cap exposure at 2 positions"}
