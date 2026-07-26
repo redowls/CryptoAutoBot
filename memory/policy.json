@@ -1,1 +1,1 @@
-{"date": "2026-07-25", "regime_hint": "neutral", "blocked_symbols": ["AVAX", "DOGE"], "max_positions": 2, "notes": "BTC downtrend ADX 30 as market anchor; AVAX RSI 85 + DOGE RSI 77 overbought with prior stop-outs on both — block entries, cap exposure at 2 positions"}
+{"date": "2026-07-26", "regime_hint": "auto", "blocked_symbols": ["UNI"], "max_positions": 3, "notes": "Multiple alts overbought (ETH/LINK/LTC/UNI RSI >75); block UNI +7% blow-off top; DOT+DOGE cleanest ADX/RSI setups; 2 positions already open"}
