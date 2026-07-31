@@ -1,1 +1,1 @@
-{"date": "2026-07-30", "regime_hint": "neutral", "blocked_symbols": ["UNI", "LTC", "AVAX"], "max_positions": 2, "notes": "UNI blow-off (RSI 82), LTC downtrend, AVAX ADX=10 chop blocked; ADX<20 on 7/10 coins = weak drift, cap at 2 positions"}
+{"date": "2026-07-31", "regime_hint": "neutral", "blocked_symbols": ["UNI", "AVAX"], "max_positions": 2, "notes": "10/10 EMA-down with 5 coins RSI<30; extreme oversold breadth = short-covering bounce risk; AVAX no trend (ADX 9.3), UNI mixed stack + ATR 1.74%"}
