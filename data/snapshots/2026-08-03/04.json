@@ -1,0 +1,355 @@
+{
+  "captured_at": "2026-08-03T04:05:02.474695+00:00",
+  "symbols": [
+    {
+      "symbol": "BTC",
+      "pair": "BTC/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "error",
+          "error": "BTC/USD 1Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=BTC%2FUSD&timeframe=1Hour&limit=1000&start=2026-07-24T04%3A05%3A02Z&page_token=QlRDL1VTRHxNfDE3ODU1MDY0MDAwMDAwMDAwMDA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcd430>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "4H": {
+          "status": "error",
+          "error": "BTC/USD 4Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=BTC%2FUSD&timeframe=4Hour&limit=1000&start=2026-07-04T04%3A05%3A22Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcda90>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "1D": {
+          "status": "ok",
+          "last_close": 62843.6655,
+          "last_time": "2026-08-03T00:00:00Z",
+          "ema8": 63521.01221599782,
+          "ema20": 63855.04021742307,
+          "ema55": 64837.10786705556,
+          "rsi14": 44.78701580973267,
+          "atr14": 1600.3659409744582,
+          "adx14": 15.023181024968258,
+          "vol20": 1.4562683136,
+          "last_vol": 0.179880418,
+          "bar_count": 200
+        }
+      }
+    },
+    {
+      "symbol": "ETH",
+      "pair": "ETH/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "error",
+          "error": "ETH/USD 1Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=ETH%2FUSD&timeframe=1Hour&limit=1000&start=2026-07-24T04%3A05%3A43Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fce720>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "4H": {
+          "status": "error",
+          "error": "ETH/USD 4Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=ETH%2FUSD&timeframe=4Hour&limit=1000&start=2026-07-04T04%3A06%3A03Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fce930>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "1D": {
+          "status": "ok",
+          "last_close": 1857.46,
+          "last_time": "2026-08-03T00:00:00Z",
+          "ema8": 1877.5954490564545,
+          "ema20": 1867.8333297855017,
+          "ema55": 1852.906352257646,
+          "rsi14": 50.14267997571074,
+          "atr14": 62.79683302967156,
+          "adx14": 19.381278370457803,
+          "vol20": 20.64832713445,
+          "last_vol": 0.515456802,
+          "bar_count": 200
+        }
+      }
+    },
+    {
+      "symbol": "SOL",
+      "pair": "SOL/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "error",
+          "error": "SOL/USD 1Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=SOL%2FUSD&timeframe=1Hour&limit=1000&start=2026-07-24T04%3A06%3A23Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcddc0>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "4H": {
+          "status": "error",
+          "error": "SOL/USD 4Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=SOL%2FUSD&timeframe=4Hour&limit=1000&start=2026-07-04T04%3A06%3A43Z&page_token=U09ML1VTRHxNfDE3ODUxODI0MDAwMDAwMDAwMDA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcdaf0>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "1D": {
+          "status": "ok",
+          "last_close": 72.883,
+          "last_time": "2026-08-03T00:00:00Z",
+          "ema8": 73.53409996445646,
+          "ema20": 74.62399742255275,
+          "ema55": 75.83701160162971,
+          "rsi14": 43.6702796845377,
+          "atr14": 2.649104375394623,
+          "adx14": 12.83014789682203,
+          "vol20": 148.97926096055,
+          "last_vol": 4.31834769,
+          "bar_count": 200
+        }
+      }
+    },
+    {
+      "symbol": "XRP",
+      "pair": "XRP/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "error",
+          "error": "XRP/USD 1Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=XRP%2FUSD&timeframe=1Hour&limit=1000&start=2026-07-24T04%3A07%3A04Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcfbf0>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "4H": {
+          "status": "ok",
+          "last_close": 1.0708,
+          "last_time": "2026-08-03T04:00:00Z",
+          "ema8": 1.0746395695277886,
+          "ema20": 1.0733001952901733,
+          "ema55": 1.0799375534176234,
+          "rsi14": 47.79970176277647,
+          "atr14": 0.011159237991647445,
+          "adx14": 12.784053433286582,
+          "vol20": 1230.1133417589501,
+          "last_vol": 7.458715,
+          "bar_count": 180
+        },
+        "1D": {
+          "status": "ok",
+          "last_close": 1.0708,
+          "last_time": "2026-08-03T00:00:00Z",
+          "ema8": 1.0764820065340956,
+          "ema20": 1.0870559991906625,
+          "ema55": 1.1275117863782314,
+          "rsi14": 44.6758322971594,
+          "atr14": 0.03301013479869728,
+          "adx14": 10.202689654354463,
+          "vol20": 10725.4697700769,
+          "last_vol": 960.853921594,
+          "bar_count": 200
+        }
+      }
+    },
+    {
+      "symbol": "DOGE",
+      "pair": "DOGE/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "ok",
+          "last_close": 0.0698146,
+          "last_time": "2026-08-03T04:00:00Z",
+          "ema8": 0.0700960569542607,
+          "ema20": 0.0701751793662815,
+          "ema55": 0.07004806905057541,
+          "rsi14": 42.5630225673296,
+          "atr14": 0.0003566568080163133,
+          "adx14": 21.424644109518407,
+          "vol20": 192.4693319143,
+          "last_vol": 0,
+          "bar_count": 240
+        },
+        "4H": {
+          "status": "error",
+          "error": "DOGE/USD 4Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=DOGE%2FUSD&timeframe=4Hour&limit=1000&start=2026-07-04T04%3A07%3A26Z&page_token=RE9HRS9VU0R8TXwxNzg1MjgzMjAwMDAwMDAwMDAw (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fce060>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "1D": {
+          "status": "ok",
+          "last_close": 0.0698146,
+          "last_time": "2026-08-03T00:00:00Z",
+          "ema8": 0.07027098958424528,
+          "ema20": 0.07139954682010097,
+          "ema55": 0.07683465356563361,
+          "rsi14": 41.69425481662135,
+          "atr14": 0.002528178333061976,
+          "adx14": 28.57359672677686,
+          "vol20": 28397.53807623505,
+          "last_vol": 2601.766097808,
+          "bar_count": 200
+        }
+      }
+    },
+    {
+      "symbol": "AVAX",
+      "pair": "AVAX/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "ok",
+          "last_close": 6.41556,
+          "last_time": "2026-08-03T04:00:00Z",
+          "ema8": 6.4920435161720125,
+          "ema20": 6.513791528657277,
+          "ema55": 6.468794851390928,
+          "rsi14": 38.53346643604162,
+          "atr14": 0.05885333641376933,
+          "adx14": 27.07133165461276,
+          "vol20": 4.3640655205000005,
+          "last_vol": 0,
+          "bar_count": 240
+        },
+        "4H": {
+          "status": "ok",
+          "last_close": 6.41556,
+          "last_time": "2026-08-03T04:00:00Z",
+          "ema8": 6.46697883956498,
+          "ema20": 6.446187295503052,
+          "ema55": 6.464257057140445,
+          "rsi14": 48.04457701918769,
+          "atr14": 0.12130441535981083,
+          "adx14": 14.240629562485742,
+          "vol20": 17.92979523795,
+          "last_vol": 0,
+          "bar_count": 180
+        },
+        "1D": {
+          "status": "error",
+          "error": "AVAX/USD 1Day: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=AVAX%2FUSD&timeframe=1Day&limit=1000&start=2026-01-15T04%3A07%3A49Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcd7c0>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        }
+      }
+    },
+    {
+      "symbol": "LINK",
+      "pair": "LINK/USD",
+      "status": "ok",
+      "timeframes": {
+        "1H": {
+          "status": "ok",
+          "last_close": 8.26154,
+          "last_time": "2026-08-03T04:00:00Z",
+          "ema8": 8.3004883442095,
+          "ema20": 8.297391650449452,
+          "ema55": 8.261882017240605,
+          "rsi14": 46.28367038703489,
+          "atr14": 0.04998229811134186,
+          "adx14": 22.576126439433203,
+          "vol20": 3.747142925,
+          "last_vol": 0,
+          "bar_count": 240
+        },
+        "4H": {
+          "status": "ok",
+          "last_close": 8.26154,
+          "last_time": "2026-08-03T04:00:00Z",
+          "ema8": 8.267581523104338,
+          "ema20": 8.259586131035265,
+          "ema55": 8.3198667178075,
+          "rsi14": 49.36465103651259,
+          "atr14": 0.11833144476895271,
+          "adx14": 15.913187307690219,
+          "vol20": 32.4454218112,
+          "last_vol": 0,
+          "bar_count": 180
+        },
+        "1D": {
+          "status": "ok",
+          "last_close": 8.26154,
+          "last_time": "2026-08-03T00:00:00Z",
+          "ema8": 8.30826334146345,
+          "ema20": 8.30024526690356,
+          "ema55": 8.279270666738856,
+          "rsi14": 49.83951931287266,
+          "atr14": 0.3260568873073621,
+          "adx14": 15.888367209344787,
+          "vol20": 610.6264147982499,
+          "last_vol": 10.1655514,
+          "bar_count": 200
+        }
+      }
+    },
+    {
+      "symbol": "DOT",
+      "pair": "DOT/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "error",
+          "error": "DOT/USD 1Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=DOT%2FUSD&timeframe=1Hour&limit=1000&start=2026-07-24T04%3A08%3A11Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcf770>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "4H": {
+          "status": "error",
+          "error": "DOT/USD 4Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=DOT%2FUSD&timeframe=4Hour&limit=1000&start=2026-07-04T04%3A08%3A31Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcec30>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "1D": {
+          "status": "ok",
+          "last_close": 0.789515,
+          "last_time": "2026-08-03T00:00:00Z",
+          "ema8": 0.7852860040950848,
+          "ema20": 0.8041243376594672,
+          "ema55": 0.8837814061828316,
+          "rsi14": 42.836040306852176,
+          "atr14": 0.0325435592843713,
+          "adx14": 19.30749533735869,
+          "vol20": 1950.5113268019,
+          "last_vol": 27.05989578,
+          "bar_count": 200
+        }
+      }
+    },
+    {
+      "symbol": "LTC",
+      "pair": "LTC/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "error",
+          "error": "LTC/USD 1Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=LTC%2FUSD&timeframe=1Hour&limit=1000&start=2026-07-24T04%3A08%3A51Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce9090ad0>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "4H": {
+          "status": "ok",
+          "last_close": 44.3987,
+          "last_time": "2026-08-03T04:00:00Z",
+          "ema8": 44.55070331229629,
+          "ema20": 44.71231153554407,
+          "ema55": 45.30967179020249,
+          "rsi14": 41.70245762463546,
+          "atr14": 0.4587324570634426,
+          "adx14": 31.964435721507755,
+          "vol20": 1.1869358083,
+          "last_vol": 0.154019,
+          "bar_count": 180
+        },
+        "1D": {
+          "status": "error",
+          "error": "LTC/USD 1Day: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=LTC%2FUSD&timeframe=1Day&limit=1000&start=2026-01-15T04%3A09%3A12Z (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fcdd00>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        }
+      }
+    },
+    {
+      "symbol": "UNI",
+      "pair": "UNI/USD",
+      "status": "partial",
+      "timeframes": {
+        "1H": {
+          "status": "ok",
+          "last_close": 4.104785,
+          "last_time": "2026-08-03T04:00:00Z",
+          "ema8": 4.1371057190178515,
+          "ema20": 4.158050100604135,
+          "ema55": 4.166657428845193,
+          "rsi14": 38.461492776486075,
+          "atr14": 0.0457731045342457,
+          "adx14": 28.509003674187234,
+          "vol20": 15.37630356185,
+          "last_vol": 0,
+          "bar_count": 240
+        },
+        "4H": {
+          "status": "error",
+          "error": "UNI/USD 4Hour: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/bars?symbols=UNI%2FUSD&timeframe=4Hour&limit=1000&start=2026-07-04T04%3A09%3A33Z&page_token=VU5JL1VTRHxNfDE3ODQ3MDcyMDAwMDAwMDAwMDA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='data.alpaca.markets', port=443) at 0x754ce8fce000>, 'Connection to data.alpaca.markets timed out. (connect timeout=20)'))"
+        },
+        "1D": {
+          "status": "ok",
+          "last_close": 4.104785,
+          "last_time": "2026-08-03T00:00:00Z",
+          "ema8": 4.079642410625289,
+          "ema20": 3.871974786545896,
+          "ema55": 3.5355250129737015,
+          "rsi14": 60.439649315625815,
+          "atr14": 0.25023822862376627,
+          "adx14": 47.06887791811546,
+          "vol20": 1539.0464928084,
+          "last_vol": 13.009252339,
+          "bar_count": 200
+        }
+      }
+    }
+  ]
+}
