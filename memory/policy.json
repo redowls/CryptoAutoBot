@@ -1,1 +1,1 @@
-{"date": "2026-08-03", "regime_hint": "neutral", "blocked_symbols": ["DOT", "UNI"], "max_positions": 3, "notes": "BTC mixed (ADX 24.1, no trend); DOT overbought blow-off (RSI 76.6, +3.52%); UNI falling knife (RSI 28.6, ATR 1.36%, just stopped out -$159.40 today)"}
+{"date": "2026-08-05", "regime_hint": "auto", "blocked_symbols": [], "max_positions": 3, "notes": "UNI strongest (ADX 32.4, +4.96%); AVAX open position near stop; weak alt breadth outside UNI/DOT — unblock both, engine decides"}
