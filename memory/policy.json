@@ -1,1 +1,1 @@
-{"date": "2026-08-05", "regime_hint": "auto", "blocked_symbols": [], "max_positions": 3, "notes": "UNI strongest (ADX 32.4, +4.96%); AVAX open position near stop; weak alt breadth outside UNI/DOT — unblock both, engine decides"}
+{"date": "2026-08-06", "regime_hint": "neutral", "blocked_symbols": ["AVAX", "DOT"], "max_positions": 2, "notes": "Alt weakness broad; AVAX/DOT confirmed downtrends (ADX 36.6/32.9) with recent stop-outs — block longs; UNI in position, cap at 2 total"}
