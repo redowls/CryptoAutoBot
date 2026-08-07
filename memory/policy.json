@@ -1,1 +1,1 @@
-{"date": "2026-08-06", "regime_hint": "neutral", "blocked_symbols": ["AVAX", "DOT"], "max_positions": 2, "notes": "Alt weakness broad; AVAX/DOT confirmed downtrends (ADX 36.6/32.9) with recent stop-outs — block longs; UNI in position, cap at 2 total"}
+{"date": "2026-08-07", "regime_hint": "neutral", "blocked_symbols": ["UNI"], "max_positions": 2, "notes": "UNI open position underwater + trend DOWN + ADX 11.4 (weakest) + ATR 1.2% (highest) — block new UNI entries; cap at 2 total given ongoing losing streak (-$1,030 lifetime realized)"}
