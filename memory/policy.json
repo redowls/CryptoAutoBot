@@ -1,1 +1,1 @@
-{"date": "2026-08-07", "regime_hint": "neutral", "blocked_symbols": ["UNI"], "max_positions": 2, "notes": "UNI open position underwater + trend DOWN + ADX 11.4 (weakest) + ATR 1.2% (highest) — block new UNI entries; cap at 2 total given ongoing losing streak (-$1,030 lifetime realized)"}
+{"date": "2026-08-08", "regime_hint": "auto", "blocked_symbols": ["UNI", "DOT"], "max_positions": 3, "notes": "6/10 uptrends; LINK (ADX 30.4) cleanest new entry; SOL overbought (trail, no add); UNI blocked (downtrend+ADX 8.7); DOT blocked (directionless ADX 14.5)"}
