@@ -1,1 +1,1 @@
-{"date": "2026-08-09", "regime_hint": "auto", "blocked_symbols": ["SOL"], "max_positions": 3, "notes": "9/10 EMA-up but only SOL+LTC ADX>25; SOL blocked (RSI 76.7 overbought, trail existing long only); LTC is the one quality new-entry; LINK watches at ADX 21.3"}
+{"date": "2026-08-10", "regime_hint": "neutral", "blocked_symbols": ["UNI"], "max_positions": 2, "notes": "Broad bearish regime BTC/ETH downtrend ADX>25; only LINK trending up; 2 open positions at capacity; UNI blocked — near stop, no re-entry if stopped out"}
