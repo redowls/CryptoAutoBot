@@ -1,25 +1,13 @@
 {
   "open": [
     {
-      "symbol": "AVAX",
-      "qty": 445.249659858,
-      "entry_price": 6.663954041,
-      "entry_time": "2026-08-15T07:12:09.686259+00:00",
-      "initial_stop": 6.471717121598093,
-      "stop": 6.471717121598093,
-      "high_water": 6.663954041,
-      "atr_at_entry": 0.06407897313396883,
-      "order_id": "ed57a96f-edb3-4830-a771-e6f22254c4d0",
-      "half_size": false
-    },
-    {
       "symbol": "LINK",
       "qty": 316.268381197,
       "entry_price": 9.342390279,
       "entry_time": "2026-08-15T10:12:09.673394+00:00",
       "initial_stop": 9.03930094001963,
       "stop": 9.03930094001963,
-      "high_water": 9.5269,
+      "high_water": 9.59915,
       "atr_at_entry": 0.10102977966012383,
       "order_id": "c6c414e2-b12f-46d9-9696-35b3cabc93b6",
       "half_size": false
@@ -195,6 +183,16 @@
       "exit_time": "2026-08-15T02:12:02.699587+00:00",
       "pnl": 295.14,
       "reason": "tp"
+    },
+    {
+      "symbol": "AVAX",
+      "qty": 445.249659858,
+      "entry_price": 6.663954041,
+      "exit_price": 6.303386869,
+      "entry_time": "2026-08-15T07:12:09.686259+00:00",
+      "exit_time": "2026-08-15T23:12:03.000597+00:00",
+      "pnl": -160.54,
+      "reason": "stop"
     }
   ],
   "last_entry_attempt": {
