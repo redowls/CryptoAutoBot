@@ -1,1 +1,1 @@
-{"date": "2026-08-16", "regime_hint": "auto", "blocked_symbols": ["AVAX"], "max_positions": 2, "notes": "8/10 ADX<25 chop; only XRP (ADX 26.6 down) + AVAX (ADX 27.7 down) trending; AVAX blocked — stop-out yesterday, today +2.78% dead-cat bounce in downtrend; cap at 2 in choppy field"}
+{"date": "2026-08-17", "regime_hint": "auto", "blocked_symbols": ["DOGE"], "max_positions": 3, "notes": "BTC overbought RSI 72.1 — ETH/SOL lead as fresh entries; DOGE blocked (ADX 11, hollow uptrend, 2/2 historical stops)"}
