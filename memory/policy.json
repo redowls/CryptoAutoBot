@@ -1,1 +1,1 @@
-{"date": "2026-08-18", "regime_hint": "auto", "blocked_symbols": ["SOL"], "max_positions": 3, "notes": "BTC-dominant session (ADX 41.9); SOL blocked — RSI 70.2 overbought with only ADX 22, blow-off risk after +1.6% day"}
+{"date": "2026-08-19", "regime_hint": "neutral", "blocked_symbols": ["BTC", "ETH", "SOL", "XRP"], "max_positions": 2, "notes": "Extreme overbought sweep (7/10 RSI >80, BTC/ETH/SOL RSI 91-92); no new longs — protect LINK+DOT positions only"}
