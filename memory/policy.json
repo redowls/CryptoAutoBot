@@ -1,1 +1,1 @@
-{"date": "2026-08-20", "regime_hint": "auto", "blocked_symbols": ["XRP"], "max_positions": 3, "notes": "RSI cooling from Aug-19 extremes into confirmed bull trend; block XRP blow-off (+13.5%/RSI 86.9); prefer LTC/UNI (RSI headroom) for 3rd slot"}
+{"date": "2026-08-21", "regime_hint": "auto", "blocked_symbols": ["DOT", "LTC", "XRP"], "max_positions": 3, "notes": "Broad rally; block DOT/LTC (RSI>70, freshly TP'd), XRP (+11.2% blow-off, ATR 2.49%); at max_positions already"}
