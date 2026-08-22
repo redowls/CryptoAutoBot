@@ -1,5 +1,6 @@
 # Insights
 
+- **2026-08-22**: When alts sell broadly but a subset maintains up-trend EMA stacks (XRP, UNI, SOL today), relative-strength outliers are the priority queue for new entries — large-cap weakness (ETH -3.88%, AVAX -4.46% with ADX >33) does not invalidate the clean up-trend names; block the high-ADX downtrend coins and queue the relative-strength ones for the next slot.
 - **2026-06-16**: When ADX diverges across coins (some >45, some <20), filter setups by ADX first — high-ADX coins with neutral RSI (<65) are the cleanest trend-continuation entries; skip low-ADX coins regardless of EMA direction.
 - **2026-06-16** (digest 2): RSI >80 + ADX >50 = blow-off momentum pattern (UNI today: RSI 84.4, ADX 58.4) — existing longs trail aggressively, new entries avoid; the trend is real but reversal risk extreme at these extremes.
 - **2026-06-17**: On FOMC/macro event days, trend-continuation setups (SOL, DOT) are lower-risk than momentum chases (UNI) because established trends absorb volatility better than overbought names that can gap-reverse on a surprise.
