@@ -1,5 +1,6 @@
 # Insights
 
+- **2026-08-25**: When BTC holds an up trend while most alts drift mixed-to-down, ADX 10 on an apparent uptrend coin (UNI +1.32%) is a noise flag not a setup — a coin with trend=up but ADX <15 is likely in choppy consolidation and the day-% gain will revert; block it and focus on ADX-confirmed names only.
 - **2026-08-22**: When alts sell broadly but a subset maintains up-trend EMA stacks (XRP, UNI, SOL today), relative-strength outliers are the priority queue for new entries — large-cap weakness (ETH -3.88%, AVAX -4.46% with ADX >33) does not invalidate the clean up-trend names; block the high-ADX downtrend coins and queue the relative-strength ones for the next slot.
 - **2026-06-16**: When ADX diverges across coins (some >45, some <20), filter setups by ADX first — high-ADX coins with neutral RSI (<65) are the cleanest trend-continuation entries; skip low-ADX coins regardless of EMA direction.
 - **2026-06-16** (digest 2): RSI >80 + ADX >50 = blow-off momentum pattern (UNI today: RSI 84.4, ADX 58.4) — existing longs trail aggressively, new entries avoid; the trend is real but reversal risk extreme at these extremes.

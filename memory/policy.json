@@ -1,1 +1,1 @@
-{"date": "2026-08-24", "regime_hint": "auto", "blocked_symbols": ["UNI"], "max_positions": 3, "notes": "ETH only ADX>25 confirmed trend; UNI blocked — -3.5% on BTC+2% day signals structural divergence, 2x prior stops in record"}
+{"date": "2026-08-25", "regime_hint": "neutral", "blocked_symbols": ["UNI"], "max_positions": 3, "notes": "BTC leads, alts broadly weak; SOL open underwater; UNI blocked ADX 10.4 (no trend) + highest ATR 1.75%"}
