@@ -23,18 +23,6 @@
       "atr_at_entry": 33.65745282204819,
       "order_id": "cb39f23c-cc63-4a0e-976b-6225753ef1d7",
       "half_size": false
-    },
-    {
-      "symbol": "SOL",
-      "qty": 35.562137018,
-      "entry_price": 101.588034542,
-      "entry_time": "2026-08-25T07:12:09.822866+00:00",
-      "initial_stop": 96.89733622998013,
-      "stop": 96.89733622998013,
-      "high_water": 101.588034542,
-      "atr_at_entry": 1.563566104006625,
-      "order_id": "f1531543-2ca1-4476-8d22-b71ae1aec803",
-      "half_size": false
     }
   ],
   "closed": [
@@ -307,6 +295,16 @@
       "exit_time": "2026-08-25T01:12:03.565146+00:00",
       "pnl": 355.16,
       "reason": "tp"
+    },
+    {
+      "symbol": "SOL",
+      "qty": 35.562137018,
+      "entry_price": 101.588034542,
+      "exit_price": 96.229702714,
+      "entry_time": "2026-08-25T07:12:09.822866+00:00",
+      "exit_time": "2026-08-25T21:12:03.328766+00:00",
+      "pnl": -190.55,
+      "reason": "stop"
     }
   ],
   "last_entry_attempt": {

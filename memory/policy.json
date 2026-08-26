@@ -1,1 +1,1 @@
-{"date": "2026-08-25", "regime_hint": "neutral", "blocked_symbols": ["UNI"], "max_positions": 3, "notes": "BTC leads, alts broadly weak; SOL open underwater; UNI blocked ADX 10.4 (no trend) + highest ATR 1.75%"}
+{"date": "2026-08-26", "regime_hint": "neutral", "blocked_symbols": [], "max_positions": 2, "notes": "All 10 coins in EMA downtrend — engine gate handles new entries; cap at 2 (current open count) to protect capital in macro selloff"}
