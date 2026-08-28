@@ -6,8 +6,8 @@
       "entry_price": 101.3,
       "entry_time": "2026-08-27T04:12:11.541475+00:00",
       "initial_stop": 97.68000893534867,
-      "stop": 98.56296016799506,
-      "high_water": 107.336,
+      "stop": 100.5724060918368,
+      "high_water": 109.065,
       "atr_at_entry": 1.2066636882171125,
       "order_id": "32bfcf9d-1134-4a6a-b1e2-461ac01afeaa",
       "half_size": false
@@ -313,6 +313,16 @@
       "exit_time": "2026-08-27T09:12:05.054057+00:00",
       "pnl": 136.67,
       "reason": "time"
+    },
+    {
+      "symbol": "LINK",
+      "qty": 311.942132788,
+      "entry_price": 11.949129381,
+      "exit_price": 11.451264942,
+      "entry_time": "2026-08-27T21:12:02.977310+00:00",
+      "exit_time": "2026-08-28T16:12:03.825841+00:00",
+      "pnl": -155.3,
+      "reason": "stop"
     }
   ],
   "last_entry_attempt": {

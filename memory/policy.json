@@ -1,1 +1,1 @@
-{"date": "2026-08-27", "regime_hint": "auto", "blocked_symbols": ["SOL", "XRP"], "max_positions": 3, "notes": "Recovery from all-10-EMA-down; SOL already open+overbought RSI 78.2; XRP mixed EMA stack despite ADX 26.7; LINK and DOT are the valid gate-pass longs"}
+{"date": "2026-08-28", "regime_hint": "neutral", "blocked_symbols": ["LINK"], "max_positions": 2, "notes": "Broad selloff all 10 coins, ADX weak <25 on 9/10; LINK stopped within 19h blocked; BTC/LTC oversold RSI keeps full risk_off off the table; reduce max_positions to 2"}
