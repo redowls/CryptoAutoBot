@@ -1,1 +1,1 @@
-{"date": "2026-08-28", "regime_hint": "neutral", "blocked_symbols": ["LINK"], "max_positions": 2, "notes": "Broad selloff all 10 coins, ADX weak <25 on 9/10; LINK stopped within 19h blocked; BTC/LTC oversold RSI keeps full risk_off off the table; reduce max_positions to 2"}
+{"date": "2026-08-29", "regime_hint": "neutral", "blocked_symbols": ["LTC"], "max_positions": 2, "notes": "BTC+ETH ADX>30 confirmed downtrends; only SOL uptrend (open, risk-free stop); LTC ADX 10.2 = no trend; limit new entries to EMA-up + ADX>25 only"}
