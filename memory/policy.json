@@ -1,1 +1,1 @@
-{"date": "2026-08-30", "regime_hint": "neutral", "blocked_symbols": ["UNI"], "max_positions": 2, "notes": "4/10 coins RSI≥70 (ETH 75, LTC 74.5, UNI 72.7, BTC 71), zero ADX>25+RSI<70 coins available; UNI TP fired same session after +11.33% blow-off — block re-entry; raise to 3 positions when ≥1 coin clears gate with RSI headroom"}
+{"date": "2026-08-31", "regime_hint": "neutral", "blocked_symbols": [], "max_positions": 2, "notes": "8/10 coins in downtrend, BTC/ETH mixed — long setups scarce; cap exposure at 2, only UNI uptrend qualifies"}
