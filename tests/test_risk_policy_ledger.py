@@ -102,7 +102,8 @@ def test_ledger_close_records_pnl(tmp_path):
     led = ledger.load(tmp_path / "t.json")
     pos = ledger.open_position(led, "SOL", 2.0, 100.0, 2.0, "oid1", now=NOW)
     trade = ledger.close_position(led, pos, 110.0, "tp", now=NOW)
-    assert trade["pnl"] == 20.0
+    assert trade["pnl_gross"] == 20.0
+    assert trade["pnl"] == 19.16  # net of the round-trip fee
     assert led["open"] == []
     assert led["closed"][0]["reason"] == "tp"
 
@@ -136,3 +137,61 @@ def test_reconcile_drops_missing_and_adopts_unknown(tmp_path):
     uni = next(p for p in led["open"] if p["symbol"] == "UNI")
     assert uni.get("adopted") and uni["stop"] < 8.0
     assert any("SOL" in n for n in notes)
+
+
+# --- fees (IMP-B01) ---
+
+def test_close_position_deducts_round_trip_fees(tmp_path):
+    """Net P&L must charge FEE_RATE on BOTH the entry and the exit notional.
+
+    Reconciling the paper account on 2026-09-02 showed a $463.48 gap between the
+    ledger's price-difference P&L and broker equity -- 0.206% per side of the
+    $112,577.94 traded. The ledger was reporting gross and calling it net.
+    """
+    led = ledger.load(tmp_path / "t.json")
+    pos = ledger.open_position(led, "SOL", 2.0, 100.0, 2.0, "oid1", now=NOW)
+    trade = ledger.close_position(led, pos, 110.0, "tp", now=NOW)
+    # gross = 2 * (110 - 100) = 20.00
+    # fees  = 0.002 * (2*100 entry + 2*110 exit) = 0.002 * 420 = 0.84
+    assert trade["pnl_gross"] == 20.0
+    assert trade["fees"] == 0.84
+    assert trade["pnl"] == 19.16
+
+
+def test_close_position_fees_make_a_marginal_win_a_loss(tmp_path):
+    """A trade that clears less than the round trip is a LOSS, not a win."""
+    led = ledger.load(tmp_path / "t.json")
+    pos = ledger.open_position(led, "SOL", 10.0, 100.0, 2.0, "oid1", now=NOW)
+    trade = ledger.close_position(led, pos, 100.2, "tp", now=NOW)
+    # gross +2.00, fees 0.002 * (1000 + 1002) = 4.00 -> net -2.00
+    assert trade["pnl_gross"] == 2.0
+    assert trade["pnl"] < 0
+
+
+def test_zero_fee_rate_reproduces_gross(tmp_path, monkeypatch):
+    monkeypatch.setattr(config, "FEE_RATE", 0.0)
+    led = ledger.load(tmp_path / "t.json")
+    pos = ledger.open_position(led, "SOL", 2.0, 100.0, 2.0, "oid1", now=NOW)
+    trade = ledger.close_position(led, pos, 110.0, "tp", now=NOW)
+    assert trade["fees"] == 0.0
+    assert trade["pnl"] == trade["pnl_gross"] == 20.0
+
+
+def test_close_position_carries_stop_anchors_for_doctrine(tmp_path):
+    """The doctrine needs 1R, so the closed row must keep the ORIGINAL stop."""
+    led = ledger.load(tmp_path / "t.json")
+    pos = ledger.open_position(led, "SOL", 2.0, 100.0, 2.0, "oid1", now=NOW)
+    initial = pos["initial_stop"]
+    pos["stop"] = 105.0  # trail ratcheted up before the exit
+    trade = ledger.close_position(led, pos, 110.0, "tp", now=NOW)
+    assert trade["initial_stop"] == initial
+    assert trade["stop"] == 105.0
+
+
+def test_circuit_breaker_uses_net_pnl(tmp_path):
+    """Fees push realized losses toward the breaker, never away from it."""
+    led = ledger.load(tmp_path / "t.json")
+    pos = ledger.open_position(led, "SOL", 10.0, 100.0, 2.0, "oid1", now=NOW)
+    trade = ledger.close_position(led, pos, 100.0, "stop", now=NOW)
+    assert trade["pnl_gross"] == 0.0
+    assert trade["pnl"] == -4.0  # a flat trade still costs the round trip

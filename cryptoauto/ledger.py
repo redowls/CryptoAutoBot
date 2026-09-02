@@ -51,14 +51,23 @@ def open_position(led, symbol, qty, entry_price, atr, order_id, half_size=False,
 def close_position(led, pos, exit_price, reason, now=None):
     now = now or datetime.now(timezone.utc)
     led["open"] = [p for p in led["open"] if p is not pos and p["symbol"] != pos["symbol"]]
+    qty = pos["qty"]
+    pnl_gross = (exit_price - pos["entry_price"]) * qty
+    fees = config.FEE_RATE * (pos["entry_price"] * qty + exit_price * qty)
     trade = {
         "symbol": pos["symbol"],
-        "qty": pos["qty"],
+        "qty": qty,
         "entry_price": pos["entry_price"],
         "exit_price": exit_price,
         "entry_time": pos["entry_time"],
         "exit_time": now.isoformat(),
-        "pnl": round((exit_price - pos["entry_price"]) * pos["qty"], 2),
+        "pnl_gross": round(pnl_gross, 2),
+        "fees": round(fees, 2),
+        "pnl": round(pnl_gross - fees, 2),
+        # the ORIGINAL 1R anchor and the stop actually in force, so the
+        # stop-exit doctrine can score this trade in R after the fact
+        "initial_stop": pos.get("initial_stop"),
+        "stop": pos.get("stop"),
         "reason": reason,
     }
     led["closed"].append(trade)

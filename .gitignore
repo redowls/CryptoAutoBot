@@ -4,3 +4,6 @@ __pycache__/
 .env
 logs/
 .pytest_cache/
+
+# one-time migration backups
+*.pre-fees.bak

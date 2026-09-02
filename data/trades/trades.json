@@ -1,5 +1,18 @@
 {
-  "open": [],
+  "open": [
+    {
+      "symbol": "UNI",
+      "qty": 413.187016429,
+      "entry_price": 6.074877411,
+      "entry_time": "2026-09-02T10:12:14.197902+00:00",
+      "initial_stop": 5.65451426868961,
+      "stop": 5.65451426868961,
+      "high_water": 6.074877411,
+      "atr_at_entry": 0.14012104743679676,
+      "order_id": "847a8bd3-ee12-49e4-9de2-5c61e7e4a0ef",
+      "half_size": false
+    }
+  ],
   "closed": [
     {
       "symbol": "BTC",
@@ -8,8 +21,12 @@
       "exit_price": 64808.12,
       "entry_time": "2026-07-14T08:41:57.953633+00:00",
       "exit_time": "2026-07-14T16:12:03.426334+00:00",
-      "pnl": 107.71,
-      "reason": "tp"
+      "pnl": 94.48,
+      "reason": "tp",
+      "pnl_gross": 107.71,
+      "fees": 13.23,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "DOGE",
@@ -18,8 +35,12 @@
       "exit_price": 0.0728113,
       "entry_time": "2026-07-14T23:12:09.767913+00:00",
       "exit_time": "2026-07-16T13:12:03.281573+00:00",
-      "pnl": -78.04,
-      "reason": "stop"
+      "pnl": -91.32,
+      "reason": "stop",
+      "pnl_gross": -78.04,
+      "fees": 13.28,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "AVAX",
@@ -28,8 +49,12 @@
       "exit_price": 6.435129955,
       "entry_time": "2026-07-14T21:12:10.182819+00:00",
       "exit_time": "2026-07-17T02:12:03.686371+00:00",
-      "pnl": -114.21,
-      "reason": "stop"
+      "pnl": -127.46,
+      "reason": "stop",
+      "pnl_gross": -114.21,
+      "fees": 13.25,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "SOL",
@@ -38,8 +63,12 @@
       "exit_price": 75.579872874,
       "entry_time": "2026-07-21T04:12:04.631745+00:00",
       "exit_time": "2026-07-23T18:12:06.033427+00:00",
-      "pnl": -113.44,
-      "reason": "stop"
+      "pnl": -126.51,
+      "reason": "stop",
+      "pnl_gross": -113.44,
+      "fees": 13.07,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "LTC",
@@ -48,8 +77,12 @@
       "exit_price": 47.382238359,
       "entry_time": "2026-07-18T20:12:10.512132+00:00",
       "exit_time": "2026-07-23T21:12:06.836891+00:00",
-      "pnl": 28.62,
-      "reason": "time"
+      "pnl": 15.4,
+      "reason": "time",
+      "pnl_gross": 28.62,
+      "fees": 13.22,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "DOT",
@@ -58,8 +91,12 @@
       "exit_price": 0.807518366,
       "entry_time": "2026-07-26T10:12:09.975050+00:00",
       "exit_time": "2026-07-27T03:12:03.620027+00:00",
-      "pnl": -88.65,
-      "reason": "stop"
+      "pnl": -101.57,
+      "reason": "stop",
+      "pnl_gross": -88.65,
+      "fees": 12.91,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "LTC",
@@ -68,8 +105,12 @@
       "exit_price": 46.22,
       "entry_time": "2026-07-26T15:12:09.571248+00:00",
       "exit_time": "2026-07-27T15:12:02.859267+00:00",
-      "pnl": -60.71,
-      "reason": "stop"
+      "pnl": -73.63,
+      "reason": "stop",
+      "pnl_gross": -60.71,
+      "fees": 12.92,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "BTC",
@@ -78,8 +119,12 @@
       "exit_price": 63653.6,
       "entry_time": "2026-07-27T03:12:11.494846+00:00",
       "exit_time": "2026-07-27T23:12:02.980920+00:00",
-      "pnl": -76.97,
-      "reason": "stop"
+      "pnl": -89.85,
+      "reason": "stop",
+      "pnl_gross": -76.97,
+      "fees": 12.88,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "ETH",
@@ -88,8 +133,12 @@
       "exit_price": 1884.01,
       "entry_time": "2026-07-27T16:12:10.692081+00:00",
       "exit_time": "2026-07-27T23:12:03.908512+00:00",
-      "pnl": -74.13,
-      "reason": "stop"
+      "pnl": -86.75,
+      "reason": "stop",
+      "pnl_gross": -74.13,
+      "fees": 12.62,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "BTC",
@@ -98,8 +147,12 @@
       "exit_price": 62630.535329344,
       "entry_time": "2026-07-31T02:12:09.306970+00:00",
       "exit_time": "2026-07-31T14:12:03.869143+00:00",
-      "pnl": -90.82,
-      "reason": "stop"
+      "pnl": -103.22,
+      "reason": "stop",
+      "pnl_gross": -90.82,
+      "fees": 12.4,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "UNI",
@@ -108,8 +161,12 @@
       "exit_price": 4.026218196,
       "entry_time": "2026-08-02T21:13:07.832446+00:00",
       "exit_time": "2026-08-03T08:12:03.560928+00:00",
-      "pnl": -159.4,
-      "reason": "stop"
+      "pnl": -171.6,
+      "reason": "stop",
+      "pnl_gross": -159.4,
+      "fees": 12.2,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "DOT",
@@ -118,8 +175,12 @@
       "exit_price": 0.837430243,
       "entry_time": "2026-08-05T00:12:10.186717+00:00",
       "exit_time": "2026-08-05T04:12:07.212401+00:00",
-      "pnl": -119.95,
-      "reason": "stop"
+      "pnl": -132.06,
+      "reason": "stop",
+      "pnl_gross": -119.95,
+      "fees": 12.11,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "AVAX",
@@ -128,8 +189,12 @@
       "exit_price": 6.397304755,
       "entry_time": "2026-08-04T10:12:12.601363+00:00",
       "exit_time": "2026-08-06T10:12:04.275668+00:00",
-      "pnl": -189.62,
-      "reason": "stop"
+      "pnl": -201.5,
+      "reason": "stop",
+      "pnl_gross": -189.62,
+      "fees": 11.88,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "UNI",
@@ -138,8 +203,12 @@
       "exit_price": 3.931899109,
       "entry_time": "2026-08-06T00:12:10.902634+00:00",
       "exit_time": "2026-08-11T01:12:04.690166+00:00",
-      "pnl": -91.56,
-      "reason": "time"
+      "pnl": -103.33,
+      "reason": "time",
+      "pnl_gross": -91.56,
+      "fees": 11.76,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "SOL",
@@ -148,8 +217,12 @@
       "exit_price": 74.815912565,
       "entry_time": "2026-08-08T09:12:08.760789+00:00",
       "exit_time": "2026-08-11T16:12:04.536437+00:00",
-      "pnl": -1.15,
-      "reason": "stop"
+      "pnl": -12.84,
+      "reason": "stop",
+      "pnl_gross": -1.15,
+      "fees": 11.69,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "DOGE",
@@ -158,8 +231,12 @@
       "exit_price": 0.070525,
       "entry_time": "2026-08-12T01:12:13.231754+00:00",
       "exit_time": "2026-08-12T14:12:04.265770+00:00",
-      "pnl": -80.65,
-      "reason": "stop"
+      "pnl": -92.19,
+      "reason": "stop",
+      "pnl_gross": -80.65,
+      "fees": 11.54,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "LINK",
@@ -168,8 +245,12 @@
       "exit_price": 9.451887494,
       "entry_time": "2026-08-11T17:12:14.478242+00:00",
       "exit_time": "2026-08-15T02:12:02.699587+00:00",
-      "pnl": 295.14,
-      "reason": "tp"
+      "pnl": 282.92,
+      "reason": "tp",
+      "pnl_gross": 295.14,
+      "fees": 12.22,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "AVAX",
@@ -178,8 +259,12 @@
       "exit_price": 6.303386869,
       "entry_time": "2026-08-15T07:12:09.686259+00:00",
       "exit_time": "2026-08-15T23:12:03.000597+00:00",
-      "pnl": -160.54,
-      "reason": "stop"
+      "pnl": -172.09,
+      "reason": "stop",
+      "pnl_gross": -160.54,
+      "fees": 11.55,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "BTC",
@@ -188,8 +273,12 @@
       "exit_price": 66477.9,
       "entry_time": "2026-08-17T23:12:09.738190+00:00",
       "exit_time": "2026-08-19T15:12:04.680529+00:00",
-      "pnl": 98.95,
-      "reason": "tp"
+      "pnl": 87.08,
+      "reason": "tp",
+      "pnl_gross": 98.95,
+      "fees": 11.87,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "LINK",
@@ -198,8 +287,12 @@
       "exit_price": 10.124583789,
       "entry_time": "2026-08-15T10:12:09.673394+00:00",
       "exit_time": "2026-08-19T20:12:03.211844+00:00",
-      "pnl": 247.38,
-      "reason": "tp"
+      "pnl": 235.07,
+      "reason": "tp",
+      "pnl_gross": 247.38,
+      "fees": 12.31,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "DOT",
@@ -208,8 +301,12 @@
       "exit_price": 0.818712091,
       "entry_time": "2026-08-19T15:12:14.293700+00:00",
       "exit_time": "2026-08-20T13:12:04.342031+00:00",
-      "pnl": 134.37,
-      "reason": "tp"
+      "pnl": 122.04,
+      "reason": "tp",
+      "pnl_gross": 134.37,
+      "fees": 12.32,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "AVAX",
@@ -218,8 +315,12 @@
       "exit_price": 7.238798931,
       "entry_time": "2026-08-19T20:12:12.933242+00:00",
       "exit_time": "2026-08-20T17:12:03.388418+00:00",
-      "pnl": 283.56,
-      "reason": "tp"
+      "pnl": 270.96,
+      "reason": "tp",
+      "pnl_gross": 283.56,
+      "fees": 12.61,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "LTC",
@@ -228,8 +329,12 @@
       "exit_price": 51.272,
       "entry_time": "2026-08-20T19:12:13.142522+00:00",
       "exit_time": "2026-08-21T16:12:03.028622+00:00",
-      "pnl": 198.48,
-      "reason": "tp"
+      "pnl": 185.53,
+      "reason": "tp",
+      "pnl_gross": 198.48,
+      "fees": 12.95,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "LINK",
@@ -238,8 +343,12 @@
       "exit_price": 11.552618454,
       "entry_time": "2026-08-20T13:12:12.049592+00:00",
       "exit_time": "2026-08-21T18:12:04.340227+00:00",
-      "pnl": 265.02,
-      "reason": "tp"
+      "pnl": 252.09,
+      "reason": "tp",
+      "pnl_gross": 265.02,
+      "fees": 12.93,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "UNI",
@@ -248,8 +357,12 @@
       "exit_price": 4.229117282,
       "entry_time": "2026-08-20T17:12:15.561782+00:00",
       "exit_time": "2026-08-22T01:12:03.871836+00:00",
-      "pnl": 353.52,
-      "reason": "tp"
+      "pnl": 341.35,
+      "reason": "tp",
+      "pnl_gross": 353.52,
+      "fees": 12.18,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "DOGE",
@@ -258,8 +371,12 @@
       "exit_price": 0.09519,
       "entry_time": "2026-08-21T16:12:14.190269+00:00",
       "exit_time": "2026-08-22T04:12:03.083891+00:00",
-      "pnl": 408.81,
-      "reason": "tp"
+      "pnl": 395.76,
+      "reason": "tp",
+      "pnl_gross": 408.81,
+      "fees": 13.05,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "SOL",
@@ -268,8 +385,12 @@
       "exit_price": 101.603782862,
       "entry_time": "2026-08-21T18:12:15.648275+00:00",
       "exit_time": "2026-08-25T01:12:03.565146+00:00",
-      "pnl": 355.16,
-      "reason": "tp"
+      "pnl": 341.05,
+      "reason": "tp",
+      "pnl_gross": 355.16,
+      "fees": 14.12,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "SOL",
@@ -278,8 +399,12 @@
       "exit_price": 96.229702714,
       "entry_time": "2026-08-25T07:12:09.822866+00:00",
       "exit_time": "2026-08-25T21:12:03.328766+00:00",
-      "pnl": -190.55,
-      "reason": "stop"
+      "pnl": -204.62,
+      "reason": "stop",
+      "pnl_gross": -190.55,
+      "fees": 14.07,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "BTC",
@@ -288,8 +413,12 @@
       "exit_price": 78839.43,
       "entry_time": "2026-08-22T01:12:11.441325+00:00",
       "exit_time": "2026-08-27T02:12:05.491504+00:00",
-      "pnl": 32.32,
-      "reason": "time"
+      "pnl": 18.15,
+      "reason": "time",
+      "pnl_gross": 32.32,
+      "fees": 14.17,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "ETH",
@@ -298,8 +427,12 @@
       "exit_price": 2533.8,
       "entry_time": "2026-08-22T08:12:11.061891+00:00",
       "exit_time": "2026-08-27T09:12:05.054057+00:00",
-      "pnl": 136.67,
-      "reason": "time"
+      "pnl": 122.16,
+      "reason": "time",
+      "pnl_gross": 136.67,
+      "fees": 14.51,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "LINK",
@@ -308,8 +441,12 @@
       "exit_price": 11.451264942,
       "entry_time": "2026-08-27T21:12:02.977310+00:00",
       "exit_time": "2026-08-28T16:12:03.825841+00:00",
-      "pnl": -155.3,
-      "reason": "stop"
+      "pnl": -169.9,
+      "reason": "stop",
+      "pnl_gross": -155.3,
+      "fees": 14.6,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "SOL",
@@ -318,8 +455,12 @@
       "exit_price": 104.874289472,
       "entry_time": "2026-08-27T04:12:11.541475+00:00",
       "exit_time": "2026-08-30T06:12:03.932913+00:00",
-      "pnl": 127.27,
-      "reason": "stop"
+      "pnl": 112.59,
+      "reason": "stop",
+      "pnl_gross": 127.27,
+      "fees": 14.68,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "UNI",
@@ -328,8 +469,12 @@
       "exit_price": 5.152883779,
       "entry_time": "2026-08-29T18:12:11.105653+00:00",
       "exit_time": "2026-08-30T12:12:03.473599+00:00",
-      "pnl": 400.59,
-      "reason": "tp"
+      "pnl": 385.32,
+      "reason": "tp",
+      "pnl_gross": 400.59,
+      "fees": 15.26,
+      "initial_stop": null,
+      "stop": null
     },
     {
       "symbol": "ETH",
@@ -338,8 +483,26 @@
       "exit_price": 2466.596,
       "entry_time": "2026-08-30T20:12:10.943898+00:00",
       "exit_time": "2026-08-30T23:12:04.026278+00:00",
-      "pnl": -58.71,
-      "reason": "stop"
+      "pnl": -73.5,
+      "reason": "stop",
+      "pnl_gross": -58.71,
+      "fees": 14.79,
+      "initial_stop": null,
+      "stop": null
+    },
+    {
+      "symbol": "UNI",
+      "qty": 568.14990057,
+      "entry_price": 5.404004949,
+      "exit_price": 6.272707985,
+      "entry_time": "2026-09-01T04:12:10.024608+00:00",
+      "exit_time": "2026-09-02T05:12:04.949119+00:00",
+      "pnl": 480.29,
+      "reason": "tp",
+      "pnl_gross": 493.55,
+      "fees": 13.27,
+      "initial_stop": null,
+      "stop": null
     }
   ],
   "last_entry_attempt": {
@@ -349,7 +512,7 @@
     "LTC": "2026-08-20T19:12:12.513870+00:00",
     "ETH": "2026-08-30T20:12:10.323971+00:00",
     "DOT": "2026-08-19T15:12:13.611285+00:00",
-    "UNI": "2026-08-29T18:12:10.421597+00:00",
+    "UNI": "2026-09-02T10:12:13.573439+00:00",
     "SOL": "2026-08-27T04:12:10.878347+00:00",
     "LINK": "2026-08-20T13:12:11.367901+00:00"
   }

@@ -61,6 +61,12 @@ RISK_OFF_TRAIL_ATR_MULT = 3.0  # tighter trail while BTC regime is risk_off
 TP_R = 2.5                  # hard take-profit in R multiples
 TIME_STOP_HOURS = 120
 CIRCUIT_BREAKER_PCT = 0.04  # rolling 24h realized loss halts new entries
+# Exchange fee charged on EACH side of a round trip, as a fraction of notional.
+# Derived 2026-09-02 by reconciling the paper account: the ledger's price-only
+# P&L ran $463.48 ahead of broker equity across $112,577.94 of entries, i.e.
+# 0.206% per side. Alpaca does not report per-fill fees on the paper endpoint,
+# so this models them; keep it in step with the live fee tier.
+FEE_RATE = 0.002
 REENTRY_THROTTLE_HOURS = 24
 SNAPSHOT_MAX_AGE_MIN = 70   # never trade on a stale snapshot
 POLICY_MAX_AGE_HOURS = 48   # stale policy.json is ignored
